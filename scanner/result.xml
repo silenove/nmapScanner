@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NmapScanner_Result xml>
+	<scanResult beginTime="2016-06-10 14:12:12" endTime="2016-06-10 14:14:03" usingTime="110s">
+		<ip address="192.168.1.154" state="up">
+			<OperateSystem>IOS</OperateSystem>
+			<osCPE>'cpe:/h:cisco:catalyst_1900', 'cpe:/h:cisco:catalyst_2820', 'cpe:/h:cisco:catalyst_2960', 'cpe:/h:cisco:catalyst_3560', 'cpe:/h:cisco:catalyst_4500', 'cpe:/h:cisco:catalyst_6513', 'cpe:/o:cisco:ios:12.2'</osCPE>
+			<port>
+				<tcp>
+					<22 name="ssh" state="open" version=""/>
+					<23 name="telnet" state="open" version=""/>
+					<80 name="http" state="open" version=""/>
+					<443 name="https" state="open" version=""/>
+				</tcp>
+				<udp>
+					<67 name="dhcps" state="open|filtered" version=""/>
+					<68 name="dhcpc" state="open|filtered" version=""/>
+					<161 name="snmp" state="open" version=""/>
+					<162 name="snmptrap" state="open|filtered" version=""/>
+				</udp>
+			</port>
+		</ip>
+	</scanResult>
+</NmapScanner_Result xml>
